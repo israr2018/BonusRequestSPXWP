@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bonus-requeust-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bonusRequeustForm/BonusRequeustFormWebPart.js",
+          "manifest": "./src/webparts/bonusRequeustForm/BonusRequeustFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+     "bootstrapJS": {
+      "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "globalName": "bootstrapJS"
+    },
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "globalName": "bootstrap"
+    }
+  },
+  "localizedResources": {
+    "BonusRequeustFormWebPartStrings": "lib/webparts/bonusRequeustForm/loc/{locale}.js"
+  }
+}

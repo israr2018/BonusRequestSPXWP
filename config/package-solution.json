@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bonus-request-eservice-client-side-solution",
+    "id": "78818b23-a334-4d4d-93c1-4068fe1bb5c6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/bonus-request-eservice.sppkg"
+  }
+}
